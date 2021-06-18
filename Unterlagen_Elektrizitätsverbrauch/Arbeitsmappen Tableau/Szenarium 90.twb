@@ -1,0 +1,1473 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='All Werte auf 90' inline='true' name='federated.1chggzl1wc331u1h98oi00lp2nyc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='All Werte auf 90' name='textscan.1pjgr8s03sul4k1gqd2pf0lz5vap'>
+            <connection class='textscan' directory='C:/Users/Test/Desktop' filename='All Werte auf 90.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1pjgr8s03sul4k1gqd2pf0lz5vap' name='All Werte auf 80.csv' table='[All Werte auf 80#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='de_CH' separator=';'>
+            <column datatype='string' name='Minute von Zeitstempel' ordinal='0' />
+            <column datatype='integer' name='Summe endverbrauchte Energie' ordinal='1' />
+            <column datatype='datetime' name='Zeitstempel' ordinal='2' />
+            <column datatype='integer' name='Summe produzierte Energie' ordinal='3' />
+            <column datatype='integer' name='Summe verbrauchte Energie' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1pjgr8s03sul4k1gqd2pf0lz5vap' name='All Werte auf 80.csv' table='[All Werte auf 80#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='de_CH' separator=';'>
+            <column datatype='string' name='Minute von Zeitstempel' ordinal='0' />
+            <column datatype='integer' name='Summe endverbrauchte Energie' ordinal='1' />
+            <column datatype='datetime' name='Zeitstempel' ordinal='2' />
+            <column datatype='integer' name='Summe produzierte Energie' ordinal='3' />
+            <column datatype='integer' name='Summe verbrauchte Energie' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[All Werte auf 80.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;de&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;CHF&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;de_CH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;&apos;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minute von Zeitstempel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Minute von Zeitstempel]</local-name>
+            <parent-name>[All Werte auf 80.csv]</parent-name>
+            <remote-alias>Minute von Zeitstempel</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Summe endverbrauchte Energie</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Summe endverbrauchte Energie]</local-name>
+            <parent-name>[All Werte auf 80.csv]</parent-name>
+            <remote-alias>Summe endverbrauchte Energie</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zeitstempel</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Zeitstempel]</local-name>
+            <parent-name>[All Werte auf 80.csv]</parent-name>
+            <remote-alias>Zeitstempel</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Summe produzierte Energie</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Summe produzierte Energie]</local-name>
+            <parent-name>[All Werte auf 80.csv]</parent-name>
+            <remote-alias>Summe produzierte Energie</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Summe verbrauchte Energie</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Summe verbrauchte Energie]</local-name>
+            <parent-name>[All Werte auf 80.csv]</parent-name>
+            <remote-alias>Summe verbrauchte Energie</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Dauer T' datatype='real' name='[Calculation_480477839816175616]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0.25' />
+      </column>
+      <column caption='Zu hoch' datatype='integer' name='[Calculation_480477839816318977]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Summe endverbrauchte Energie]-2044780' />
+      </column>
+      <column caption='Prozent' datatype='real' name='[Calculation_480477839816765442]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_480477839816318977]/[Summe endverbrauchte Energie]*100' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='All Werte auf 80.csv' datatype='table' name='[__tableau_internal_object_id__].[All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Schweiz&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Minute von Zeitstempel' />
+        <field-sort-custom-order field='Summe endverbrauchte Energie' />
+        <field-sort-custom-order field='Calculation_480477839816318977' />
+        <field-sort-custom-order field='Calculation_480477839816765442' />
+        <field-sort-custom-order field='Zeitstempel' />
+        <field-sort-custom-order field='Calculation_480477839816175616' />
+        <field-sort-custom-order field='Summe produzierte Energie' />
+        <field-sort-custom-order field='Summe verbrauchte Energie' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='All Werte auf 80.csv' id='All Werte auf 80.csv_66E63825D9D54DE0ADBB1C684E3AAFE9'>
+            <properties context=''>
+              <relation connection='textscan.1pjgr8s03sul4k1gqd2pf0lz5vap' name='All Werte auf 80.csv' table='[All Werte auf 80#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='de_CH' separator=';'>
+                  <column datatype='string' name='Minute von Zeitstempel' ordinal='0' />
+                  <column datatype='integer' name='Summe endverbrauchte Energie' ordinal='1' />
+                  <column datatype='datetime' name='Zeitstempel' ordinal='2' />
+                  <column datatype='integer' name='Summe produzierte Energie' ordinal='3' />
+                  <column datatype='integer' name='Summe verbrauchte Energie' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Blatt 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Prozentsatz an Verbrauch der über 2.04 GWh liegt</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Werte auf 90' name='federated.1chggzl1wc331u1h98oi00lp2nyc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1chggzl1wc331u1h98oi00lp2nyc'>
+            <column caption='Zu hoch' datatype='integer' name='[Calculation_480477839816318977]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Summe endverbrauchte Energie]-2044780' />
+            </column>
+            <column caption='Prozent' datatype='real' name='[Calculation_480477839816765442]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_480477839816318977]/[Summe endverbrauchte Energie]*100' />
+            </column>
+            <column datatype='integer' name='[Summe endverbrauchte Energie]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Zeitstempel]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_480477839816765442]' derivation='None' name='[none:Calculation_480477839816765442:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Zeitstempel]' derivation='Day-Trunc' name='[tdy:Zeitstempel:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]' scope='rows' value='Prozent' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</rows>
+        <cols>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>1.5025247605513068</value>
+                    <value>#2020-01-23 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-45' y='-88' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Zeit: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>9.9999804379933295</value>
+                    <value>#2012-02-07 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='134' y='33' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>3.8304717845253538</value>
+                    <value>#2021-02-12 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-38' y='-92' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>8.0329236007109888</value>
+                    <value>#2017-01-25 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>14.51599350000815</value>
+                    <value>#2021-02-12 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-40' y='-125' />
+          </annotation>
+          <annotation class='point' id='5' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>12.446707706246581</value>
+                    <value>#2020-01-23 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-3' y='-92' />
+          </annotation>
+          <annotation class='point' id='6' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>18.251505413571952</value>
+                    <value>#2017-01-25 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-119' y='1' />
+          </annotation>
+          <annotation class='point' id='7' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>20.0</value>
+                    <value>#2012-02-07 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-105' y='8' />
+          </annotation>
+          <annotation class='point' id='8' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[none:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>13.102604779998444</value>
+                    <value>#2019-01-24 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-88' y='-152' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{D8BC8D8E-A752-491F-B3EF-37EE6E61155D}' />
+    </worksheet>
+    <worksheet name='Blatt 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Zeitraum pro Tag der durch Abschaltungen betroffen ist</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Werte auf 90' name='federated.1chggzl1wc331u1h98oi00lp2nyc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1chggzl1wc331u1h98oi00lp2nyc'>
+            <column caption='Dauer T' datatype='real' name='[Calculation_480477839816175616]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0.25' />
+            </column>
+            <column caption='Zu hoch' datatype='integer' name='[Calculation_480477839816318977]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Summe endverbrauchte Energie]-2044780' />
+            </column>
+            <column caption='Prozent' datatype='real' name='[Calculation_480477839816765442]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_480477839816318977]/[Summe endverbrauchte Energie]*100' />
+            </column>
+            <column datatype='integer' name='[Summe endverbrauchte Energie]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Zeitstempel]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_480477839816765442]' derivation='Avg' name='[avg:Calculation_480477839816765442:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_480477839816175616]' derivation='Sum' name='[sum:Calculation_480477839816175616:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Zeitstempel]' derivation='Day-Trunc' name='[tdy:Zeitstempel:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Zeitstempel]' derivation='Day-Trunc' name='[tdy:Zeitstempel:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]' scope='rows' value='Dauer in Stunden pro Tag' />
+            <encoding attr='space' class='0' field='[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]' field-type='quantitative' major-origin='0.0' major-spacing='2.0' max='24.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <lod column='[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#4e79a7' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='411' />
+                <format attr='maxheight' value='411' />
+                <format attr='minwidth' value='986' />
+                <format attr='maxwidth' value='986' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <lod column='[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <lod column='[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk] + [federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk])</rows>
+        <cols>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</cols>
+        <annotations>
+          <annotation class='point' id='5' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Dauer : </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]> h]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Durch. Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[Calculation_480477839816765442]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>9.5464014865712574</value>
+                    <value>14.5</value>
+                    <value>#2021-02-12 00:00:00#</value>
+                    <value>#2021-02-12 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-48' y='-240' />
+          </annotation>
+          <annotation class='point' id='6' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Dauer : </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]> h]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Durch. Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[Calculation_480477839816765442]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>6.4054171362656929</value>
+                    <value>13.75</value>
+                    <value>#2020-01-22 00:00:00#</value>
+                    <value>#2020-01-22 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-38' y='-169' />
+          </annotation>
+          <annotation class='point' id='7' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Dauer : </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]> h]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Durch. Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[Calculation_480477839816765442]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>12.616091520585893</value>
+                    <value>17.0</value>
+                    <value>#2017-01-25 00:00:00#</value>
+                    <value>#2017-01-25 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-127' y='-219' />
+          </annotation>
+          <annotation class='point' id='8' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Dauer : </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]> h]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Durch. Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[Calculation_480477839816765442]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>13.525487199260713</value>
+                    <value>20.5</value>
+                    <value>#2012-02-07 00:00:00#</value>
+                    <value>#2012-02-07 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-107' y='-195' />
+          </annotation>
+          <annotation class='point' id='9' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Datum: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Dauer : </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]> h]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Durch. Prozent: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1chggzl1wc331u1h98oi00lp2nyc].[Calculation_480477839816765442]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[avg:Calculation_480477839816765442:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[sum:Calculation_480477839816175616:qk]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]</field>
+                      <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>10.860668287264335</value>
+                    <value>17.75</value>
+                    <value>#2018-02-27 00:00:00#</value>
+                    <value>#2018-02-27 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-10' y='-215' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{B2C6C3CF-3BCB-4054-82DE-09825F70F7FD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Blatt 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[yr:Zeitstempel:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{419AF90B-A06F-4FA4-8001-92C678D9159E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Blatt 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[tdy:Zeitstempel:ok]</field>
+            <field>[federated.1chggzl1wc331u1h98oi00lp2nyc].[yr:Zeitstempel:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EC773824-0EB0-4BE9-A1F5-81CD01BEC255}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Blatt 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Blatt 2' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
